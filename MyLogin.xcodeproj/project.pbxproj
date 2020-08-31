@@ -22,7 +22,6 @@
 		A0D742EE2488F1E700FFACE8 /* MyLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D742ED2488F1E700FFACE8 /* MyLoginTests.swift */; };
 		A0D742F92488F6D600FFACE8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0D742F82488F6D600FFACE8 /* GoogleService-Info.plist */; };
 		A0D742FD2488F97B00FFACE8 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D742FC2488F97B00FFACE8 /* HomeController.swift */; };
-		A0D743052488FC7000FFACE8 /* OldLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D743042488FC7000FFACE8 /* OldLoginController.swift */; };
 		A0E32CBA248A3BA0001376B2 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0E32CB9248A3BA0001376B2 /* AuthenticationServices.framework */; };
 		A0E32CBD248A6D9D001376B2 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E32CBC248A6D9D001376B2 /* LoginController.swift */; };
 /* End PBXBuildFile section */
@@ -59,7 +58,6 @@
 		A0D742EF2488F1E700FFACE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0D742F82488F6D600FFACE8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A0D742FC2488F97B00FFACE8 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
-		A0D743042488FC7000FFACE8 /* OldLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldLoginController.swift; sourceTree = "<group>"; };
 		A0E32CB8248A3B74001376B2 /* MyLogin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyLogin.entitlements; sourceTree = "<group>"; };
 		A0E32CB9248A3BA0001376B2 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
 		A0E32CBC248A6D9D001376B2 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
@@ -186,7 +184,6 @@
 				A0B4492B24FD210E00860DC3 /* TabBar */,
 				A0D742FB2488F97000FFACE8 /* Home */,
 				A0E32CBB248A6D86001376B2 /* Login */,
-				A0D743032488FC5500FFACE8 /* OldLogin */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -205,14 +202,6 @@
 				A0056C3224FA5E3300325F7A /* FirebaseManager */,
 			);
 			path = Extra;
-			sourceTree = "<group>";
-		};
-		A0D743032488FC5500FFACE8 /* OldLogin */ = {
-			isa = PBXGroup;
-			children = (
-				A0D743042488FC7000FFACE8 /* OldLoginController.swift */,
-			);
-			path = OldLogin;
 			sourceTree = "<group>";
 		};
 		A0E32CBB248A6D86001376B2 /* Login */ = {
@@ -413,7 +402,6 @@
 			files = (
 				A0056C2F24FA5DEC00325F7A /* FirebaseManager.swift in Sources */,
 				A043AB1124FBFCD900E9AC74 /* LoginViewModel.swift in Sources */,
-				A0D743052488FC7000FFACE8 /* OldLoginController.swift in Sources */,
 				A0D742FD2488F97B00FFACE8 /* HomeController.swift in Sources */,
 				A0D742D42488F1E300FFACE8 /* AppDelegate.swift in Sources */,
 				A0D742D62488F1E300FFACE8 /* SceneDelegate.swift in Sources */,
